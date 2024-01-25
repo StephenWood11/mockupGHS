@@ -9,6 +9,7 @@
 
 body {
     margin: 0;
+    background-color: var(--paleblue);
 }
 
 h1 {
@@ -30,7 +31,21 @@ main {
 section {
     display: flex;
     justify-content: center;
-    align-items: flex-start;
-    padding: 1rem;
+    align-items: center;
+    padding: 10rem;
     width: 90%;
+}
+
+form{
+    display:flex;
+    flex-direction: column;
+    border: 2px solid;
+    color: #444444;
+    padding: 10px;
+    border-style: ridge;
+    background-color: #afafaf;
+}
+
+button{
+    padding: 3px;
 }
