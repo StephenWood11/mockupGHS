@@ -1,0 +1,36 @@
+:root {
+    --green: #92d500;
+    --palegreen: #91d5007b;
+    --darkgreen: #93d500;
+    --paleblue: #d7ecf9;
+    --blue: #4169E1;
+    --darkblue: #165a91;
+}
+
+body {
+    margin: 0;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+header {
+    color: var(--blue);
+    font-weight: 900;
+    background-color: var(--green);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 1rem;
+    width: 90%;
+}
